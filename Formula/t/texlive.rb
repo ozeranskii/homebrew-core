@@ -55,7 +55,7 @@ class Texlive < Formula
   depends_on "gmp"
   depends_on "graphite2"
   depends_on "harfbuzz"
-  depends_on "icu4c@77"
+  depends_on "icu4c@78"
   depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "libx11"
