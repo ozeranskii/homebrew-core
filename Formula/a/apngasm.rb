@@ -22,7 +22,7 @@ class Apngasm < Formula
 
   depends_on "cmake" => :build
   depends_on "boost"
-  depends_on "icu4c@77"
+  depends_on "icu4c@78"
   depends_on "libpng"
   depends_on "lzlib"
 
