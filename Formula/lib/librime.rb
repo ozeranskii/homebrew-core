@@ -5,6 +5,7 @@ class Librime < Formula
       tag:      "1.14.0",
       revision: "e053fb29e4a7c584d93c81e2e314bc1c9efca0a6"
   license "BSD-3-Clause"
+  revision 1
 
   bottle do
     sha256 cellar: :any,                 arm64_tahoe:   "f30fc8c4a91b6d4cd7c03d7be232e34f518ab856dd2d1723a939ff3a4d3a09da"
@@ -19,7 +20,7 @@ class Librime < Formula
 
   depends_on "boost" => :build
   depends_on "cmake" => :build
-  depends_on "icu4c@77" => :build
+  depends_on "icu4c@78" => :build
   depends_on "pkgconf" => :build
 
   depends_on "capnp"
