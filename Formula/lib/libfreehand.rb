@@ -4,7 +4,7 @@ class Libfreehand < Formula
   url "https://dev-www.libreoffice.org/src/libfreehand/libfreehand-0.1.2.tar.xz"
   sha256 "0e422d1564a6dbf22a9af598535425271e583514c0f7ba7d9091676420de34ac"
   license "MPL-2.0"
-  revision 5
+  revision 6
 
   livecheck do
     url "https://dev-www.libreoffice.org/src/"
@@ -30,7 +30,7 @@ class Libfreehand < Formula
   end
 
   depends_on "boost" => :build
-  depends_on "icu4c@77" => :build
+  depends_on "icu4c@78" => :build
   depends_on "pkgconf" => :build
   depends_on "librevenge"
   depends_on "little-cms2"
