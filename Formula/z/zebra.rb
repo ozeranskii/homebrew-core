@@ -4,6 +4,7 @@ class Zebra < Formula
   url "https://ftp.indexdata.com/pub/zebra/idzebra-2.2.8.tar.gz"
   sha256 "879e402b91912e9074275753f24408ed2ac06b3b7c30b2a2d5a70718c869a542"
   license "GPL-2.0-or-later"
+  revision 1
 
   livecheck do
     url "https://ftp.indexdata.com/pub/zebra/"
@@ -21,7 +22,7 @@ class Zebra < Formula
     sha256 x86_64_linux:  "80fa4c353aa9cb8223576e8a43f4d627051a78a68ede72d8876f93607c2d89e9"
   end
 
-  depends_on "icu4c@77"
+  depends_on "icu4c@78"
   depends_on "yaz"
 
   uses_from_macos "bzip2"
