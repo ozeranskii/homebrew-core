@@ -6,6 +6,7 @@ class Standardebooks < Formula
   url "https://github.com/standardebooks/tools/archive/refs/tags/2.10.0.tar.gz"
   sha256 "817948c4d7c0d25db2c8a05c09449f9d6a39e75343ca31571430f2c3fba0a8e9"
   license "GPL-3.0-or-later"
+  revision 1
   head "https://github.com/standardebooks/tools.git", branch: "master"
 
   bottle do
